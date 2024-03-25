@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link css file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- https://www.w3schools.com/icons/fontawesome_icons_intro.asp -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- App title -->
+    <title>Chess Club Turm Lage</title>
+  </head>
+
+  <body>
+    <!-- Navigation bar -->
+    <header class="header">
+      <!-- Logo -->
+      <a href="#" class="logo"><i class="fa-regular fa-chess-rook"></i>Chess Club Turm Lage</a>
+
+      <!-- Hamburger icon -->
+      <!-- The input tag to display the menu depending on the state of the checkbox (class side-menu). -->
+      <input class="side-menu" type="checkbox" id="side-menu" />
+      <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+
+      <!-- Menu -->
+      <nav class="nav">
+        <ul class="menu">
+          <li class="subnav"></li>
+          <li>
+            <a href="#" id="joinus"
+              ><button><span class="box">Join Us</span></button></a
+            >
+          </li>
+
+          <li class="subnav">
+            <p class="subnavbtn">
+              <i class="fa-solid fa-people-group"></i>&nbsp;The Club <i class="fa-solid fa-caret-down"></i>
+            </p>
+            <div class="subnav-content">
+              <a href="#"><i class="fa-solid fa-user-group"></i>Teams&nbsp;</a>
+              <a href="#">Achievements&nbsp;<i class="fa-solid fa-trophy"></i></a>
+              <a href="#">Location&nbsp;<i class="fa-solid fa-location-dot"></i></a>
+            </div>
+          </li>
+
+          <li class="subnav">
+            <p class="subnavbtn">
+              <i class="fa-solid fa-chess"></i>&nbsp;Matches <i class="fa-solid fa-caret-down"></i>
+            </p>
+            <div class="subnav-content">
+              <a href="#">Competitions&nbsp;<i class="fa-solid fa-users-between-lines"></i></a>
+              <a href="#">Elo ratings&nbsp;<i class="fa-solid fa-ranking-star"></i></a>
+            </div>
+          </li>
+
+          <li class="subnav">
+            <p class="subnavbtn"><i class="fa-solid fa-play"></i>&nbsp;Play <i class="fa-solid fa-caret-down"></i></p>
+            <div class="subnav-content">
+              <a href="#">vs human&nbsp;<i class="fa-solid fa-brain"></i></a>
+              <a href="#">vs AI&nbsp;<i class="fa-solid fa-robot"></i></a>
+              <a href="#">Appointments&nbsp;<i class="fa-regular fa-calendar-days"></i></a>
+            </div>
+          </li>
+
+          <li class="subnav">
+            <p class="subnavbtn">
+              <i class="fa-solid fa-school"></i>&nbsp;Training <i class="fa-solid fa-caret-down"></i>
+            </p>
+            <div class="subnav-content">
+              <a href="#">Schedule&nbsp;<i class="fa-solid fa-clipboard-list"></i></a>
+              <a href="#">Coaches&nbsp;<i class="fa-solid fa-chalkboard-user"></i></a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+      <!-- <div class="bgimage"></div> -->
+      <h2>
+        <span class="line"><i class="fa-solid fa-chess-board"></i> Latest News</span>
+        <span class="line">in chess</span>
+      </h2>
+      <div class="container">
+        <div class="card">
+          <a href="#">
+          <div class="card__header">
+            <img src="./images/nakamura.png" alt="card__image" class="card__image" width="600" />
+          </div>
+        <div class="card__body">
+            <span class="tag tag-blue">News</span>
+            <h4>Nakamura Sets 59-Game Streak Record, Captures 20th Title</h4>
+            <p>
+              GM Hikaru Nakamura posted a commanding 307 score and confirmed his 20th Bullet Brawl title on Saturday
+              after outpacing his rivals GMs Daniel Naroditsky and Andrew Tang by margins of 59 and 69 points
+              respectively.
+            </p></a>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="https://i.pravatar.cc/40?img=3" alt="user__image" class="user__image" />
+              <div class="user__info">
+                <h5>Orlando Savage</h5>
+                <small>2h ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="./images/jane.jpeg" alt="card__image" class="card__image" width="600" />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-brown">Club</span>
+            <h4>TL Club Champion 2024: Jane Doe</h4>
+            <p>Jane Doe became club champion for the second time this year. Congratulations to her!</p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="https://i.pravatar.cc/40?img=5" alt="user__image" class="user__image" />
+              <div class="user__info">
+                <h5>Leslie Hayes</h5>
+                <small>Yesterday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="./images/neuro.png" alt="card__image" class="card__image" width="600" />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-red">Technology</span>
+            <h4>Neuralink Chip In Brain Helps Paraplegic Person Play Chess</h4>
+            <p>
+              A paralyzed man is able to play chess with the help of a chip produced by Neuralink and implanted into his
+              brain. A video posted on Wednesday evening on the social media platform X showing the remarkable
+              achievement has been viewed over 70 million times.
+            </p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="https://i.pravatar.cc/40?img=6" alt="user__image" class="user__image" />
+              <div class="user__info">
+                <h5>Edwin Pope</h5>
+                <small>2d ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img
+              src="https://source.unsplash.com/600x400/?chess-competition"
+              alt="card__image"
+              class="card__image"
+              width="600"
+            />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-brown">Club</span>
+            <h4>DVM U20: German champion!</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus.
+              Doloremque, nihil! At ea atque quidem!
+            </p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="https://i.pravatar.cc/40?img=12" alt="user__image" class="user__image" />
+              <div class="user__info">
+                <h5>Nolan Webb</h5>
+                <small>1w ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="https://source.unsplash.com/600x400/?server" alt="card__image" class="card__image" width="600" />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-brown">Club</span>
+            <h4>The club remains active online</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus.
+              Doloremque, nihil! At ea atque quidem!
+            </p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="https://i.pravatar.cc/40?img=33" alt="user__image" class="user__image" />
+              <div class="user__info">
+                <h5>Kason Wong</h5>
+                <small>2w ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="https://source.unsplash.com/600x400/?coding" alt="card__image" class="card__image" width="600" />
+          </div>
+          <div class="card__body">
+            <span class="tag tag-blue">News</span>
+            <h4>What's new in 2024 Tech</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus.
+              Doloremque, nihil! At ea atque quidem!
+            </p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="https://i.pravatar.cc/40?img=21" alt="user__image" class="user__image" />
+              <div class="user__info">
+                <h5>Dani Walter</h5>
+                <small>2w ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="archive">
+        <a href="#"><h3>Archive</h3></a>
+      </div>
+    </main>
+    <footer class="footer">
+      <!-- <hr class="hrline" /> -->
+      <ul class="wrapper">
+        <a href="https://github.com/ReynkeDeVos">
+          <li class="icon gitHub">
+            <span class="tooltip">GitHub</span>
+            <span><i class="fa-brands fa-github"></i></span></li
+        ></a>
+        <a href="https://www.linkedin.com/in/renke-brixel-5193982b4">
+          <li class="icon linked">
+            <span class="tooltip">LinkedIn</span>
+            <span><i class="fa-brands fa-linkedin"></i></span></li
+        ></a>
+        <a href="https://learn.wbscodingschool.com/members/renke-brixelgmail-com/">
+          <li class="icon wbs">
+            <span class="tooltip">WBS</span>
+            <span><i class="fa-solid fa-laptop-code"></i></span></li
+        ></a>
+        <a href="mailto:abc@example.com">
+          <li class="icon mail">
+            <span class="tooltip">Mail</span>
+            <span><i class="fa-solid fa-envelope"></i></span></li
+        ></a>
+      </ul>
+    </footer>
+  </body>
+</html>
