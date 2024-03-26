@@ -280,9 +280,9 @@ main h2 {
   z-index: -5000;
 }
 /*manually set a break point in the title*/
-span.line {
+/* span.line {
   display: inline-block;
-}
+} */
 
 .container {
   display: flex;
@@ -302,6 +302,7 @@ img {
 .card {
   display: flex;
   flex-direction: column;
+  /*font size, minimum, default, max*/
   width: clamp(20rem, calc(20rem + 2vw), 22rem);
   overflow: hidden;
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
